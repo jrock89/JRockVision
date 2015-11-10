@@ -1,0 +1,190 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0 !important;
+  margin: 0 !important; }
+
+.main {
+  margin-top: 30px; }
+
+#theNav {
+  position: fixed;
+  z-index: 9999;
+  bottom: -20px;
+  width: 100%;
+  height: 85px; }
+  #theNav ul {
+    padding: 0;
+    widows: 100%;
+    position: fixed;
+    height: 85px;
+    width: 100%; }
+    #theNav ul #themeNavBar {
+      width: 200%;
+      background: #2b2b2d;
+      height: 45px;
+      bottom: -19px;
+      left: -5px;
+      z-index: 9998;
+      opacity: 0.5; }
+    #theNav ul li {
+      display: inline-block;
+      margin: 0;
+      list-style: none;
+      position: relative; }
+      #theNav ul li a {
+        background: transparent;
+        position: fixed;
+        bottom: 0;
+        padding: 10px 0;
+        width: 140px;
+        text-decoration: none;
+        border-radius: 0;
+        transition: all 0.4s ease-out;
+        -moz-transition: all 0.4s ease-out;
+        -webkit-transition: all 0.4s ease-out;
+        -o-transition: all 0.4s ease-out;
+        color: #f2f2f2;
+        opacity: 0.5;
+        border: none;
+        height: 45px;
+        z-index: 9999;
+        font-size: 18px; }
+        #theNav ul li a span {
+          padding: 15px; }
+      #theNav ul li a:hover {
+        background: #2b2b2d;
+        height: 85px;
+        transition: all 0.4s ease-out;
+        -moz-transition: all 0.4s ease-out;
+        -webkit-transition: all 0.4s ease-out;
+        -o-transition: all 0.4s ease-out;
+        opacity: 1; }
+      #theNav ul li .on-page {
+        background: #2b2b2d;
+        height: 85px;
+        transition: all 0.4s ease-out;
+        -moz-transition: all 0.4s ease-out;
+        -webkit-transition: all 0.4s ease-out;
+        -o-transition: all 0.4s ease-out;
+        opacity: 1;
+        border-top: 2px solid #fff; }
+      #theNav ul li #btnOne {
+        right: 420px; }
+      #theNav ul li #btnTwo {
+        right: 280px; }
+      #theNav ul li #btnThree {
+        right: 140px; }
+      #theNav ul li #btnFour {
+        right: 0; }
+
+#welcomeDetails {
+  margin-top: 100px;
+  color: #fff;
+  background: transparent !important;
+  color: #000; }
+
+.slide {
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 30px; }
+
+.button {
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 125px;
+  left: 50%;
+  margin-left: -25px;
+  color: #000;
+  border: 3px solid #fff;
+  cursor: pointer;
+  padding: 0;
+  text-align: center;
+  font-size: 35px;
+  line-height: 1;
+  color: #fff;
+  opacity: 0.5; }
+
+.blk-btn {
+  color: #000;
+  border: 3px solid #000; }
+
+.blk-btn:hover {
+  color: #000 !important;
+  opacity: 1; }
+
+.button:hover {
+  color: #fff;
+  opacity: 1;
+  text-decoration: none; }
+
+.slide {
+  height: 100vh; }
+
+#slide1 {
+  background: url("../images/moon.jpg") no-repeat center top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  #slide1 .btns {
+    background: transparent !important;
+    border: 3px solid #fff;
+    color: #fff;
+    margin: 20px;
+    opacity: 0.5; }
+  #slide1 .btns:hover {
+    opacity: 1; }
+
+#slide2 {
+  background: #f2f2f2; }
+  #slide2 .row-rock {
+    margin-top: 100px; }
+  #slide2 .imgMove {
+    width: 250px;
+    float: left;
+    z-index: 10;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000; }
+  #slide2 .imgMove:hover {
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+    -ms-transform: scale(2);
+    filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=2, M12=-0, M21=0, M22=2); }
+
+#slide3 {
+  background: url("../images/c.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#slide4 {
+  background: #2b2b2d; }
+
+#slide5 {
+  background: url("../images/moon.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#slide6 {
+  background: url("../images/a.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.footbar {
+  display: none; }
