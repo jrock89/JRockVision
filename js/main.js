@@ -10,6 +10,37 @@ jQuery(document).ready(function ($) {
   // }
 
 
+  $(".behind_menu").click(function() {
+    $('.body_wrapper').toggleClass('body_move');
+      $('html, body').animate({
+          scrollTop: $(".behind_the").offset().top
+      }, 900);
+  });
+
+  $(".photo_menu").click(function() {
+    $('.body_wrapper').toggleClass('body_move');
+      $('html, body').animate({
+          scrollTop: $("#slide4").offset().top
+      }, 900);
+  });
+
+  $(".video_menu").click(function() {
+    $('.body_wrapper').toggleClass('body_move');
+      $('html, body').animate({
+          scrollTop: $("#slide5_5").offset().top
+      }, 900);
+  });
+
+  $(".contact_menu").click(function() {
+    $('.body_wrapper').toggleClass('body_move');
+      $('html, body').animate({
+          scrollTop: $("#slide6").offset().top
+      }, 900);
+  });
+
+
+
+
 
 
   $(window).load(function(){

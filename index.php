@@ -21,35 +21,31 @@
 
 	<div class="menu_box">
 			<div class="row">
-				<div class="col-xs-6">
+				<div class="col-xs-6 behind_menu">
 					<div class="inner_menu_box ">
-						<div class="jumbotron">
-							<h1>Behind the Lens</h1>
-						</div>
+
+							<div>Behind the Lens</div>
 					</div>
 				</div>
 				<div class="col-xs-6">
-					<div class="inner_menu_box">
-						<div class="jumbotron">
-							<h1>Photography</h1>
-						</div>
+					<div class="inner_menu_box photo_menu">
+
+							<div>Photography</div>
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-xs-6">
-					<div class="inner_menu_box">
-						<div class="jumbotron">
-							<h1>Videography</h1>
-						</div>
+					<div class="inner_menu_box video_menu">
+
+							<div>Videography</div>
 					</div>
 
 				</div>
 				<div class="col-xs-6">
-					<div class="inner_menu_box">
-						<div class="jumbotron">
-							<h1>Contact</h1>
-						</div>
+					<div class="inner_menu_box contact_menu">
+
+							<div>Contact</div>
 					</div>
 				</div>
 		</div>

@@ -89,11 +89,52 @@ body{
 	/*height: 50vh;*/
 }
 .inner_menu_box{
-	border:3px solid #000;
+	border:3px solid transparent;
 	text-align: center;
 	height: 50vh;
+	color:#fff;
+	text-align: center;
+	cursor: pointer;
+}
+.inner_menu_box div{
+	height: 50vh;
+line-height: 50vh;
+	width: 100%;
+	text-align: center;
+	font-weight: bolder;
+	font-family: "Arial Black", Gadget, sans-serif !important;
+	font-size: 50px;
+}
+.inner_menu_box .jumbotron{
+	background: transparent;
 }
 
+.behind_menu{
+	background: #BF5858;
+}
+.photo_menu{
+	background: #3E3E3E;
+}
+.video_menu{
+	background: #3E3E3E;
+}
+.contact_menu{
+		background: #BF5858;
+}
+
+
+.behind_menu:hover{
+	opacity: 0.9;
+}
+.photo_menu:hover{
+	opacity: 0.9;
+}
+.video_menu:hover{
+	opacity: 0.9;
+}
+.contact_menu:hover{
+	opacity: 0.9;
+}
 
 .main {
 	margin-top:30px;
