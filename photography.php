@@ -2,11 +2,15 @@
 <div class="photo_gal_box">
 
   <div class="jumbotron">
-    <h1>Photography</h1>
+    <h1 style="opacity:0.5;">Photography</h1>
+    <div class="coming_soon_text">
+      Coming Soon!
+    </div>
   </div>
 
   <div class="row photo_gal">
-    <div class="gal_boxes col-sm-6 col-md-3 gal_1">
+    <div class="gal_boxes col-xs-6 col-md-3 gal_1">
+      <div class="coming_soon"></div>
       <div class="gal_img">
         <img src="images/jrv/ring.png" alt="" />
       </div>
@@ -14,7 +18,8 @@
           <h1>Wedding<br>& Engagement</h1>
       </div>
     </div>
-    <div class="gal_boxes col-sm-6 col-md-3 gal_2">
+    <div class="gal_boxes col-xs-6 col-md-3 gal_2">
+      <div class="coming_soon"></div>
       <div class="gal_img">
         <img src="images/jrv/family.png" alt="" />
         <div class="gal_info gal_info_2">
@@ -23,7 +28,8 @@
       </div>
 
     </div>
-    <div class="gal_boxes col-sm-6 col-md-3 gal_3">
+    <div class="gal_boxes col-xs-6 col-md-3 gal_3">
+      <div class="coming_soon"></div>
       <div class="gal_img">
         <img src="images/jrv/senor.png" alt="" />
         <div class="gal_info_double gal_info gal_info_3">
@@ -31,7 +37,8 @@
         </div>
       </div>
     </div>
-    <div class="gal_boxes col-sm-6 col-md-3 gal_4">
+    <div class="gal_boxes col-xs-6 col-md-3 gal_4">
+      <div class="coming_soon"></div>
       <div class="gal_img">
         <img src="images/jrv/children.png" alt="" />
         <div class="gal_info_double gal_info gal_info_4">
@@ -42,7 +49,8 @@
   </div>
 
   <div class="row photo_gal">
-    <div class="gal_boxes col-sm-6 col-md-3 gal_5">
+    <div class="gal_boxes col-xs-6 col-md-3 gal_5">
+      <div class="coming_soon"></div>
       <div class="gal_img">
         <img src="images/jrv/couples.png" alt="" />
       </div>
@@ -50,7 +58,8 @@
           <h1>Couples</h1>
       </div>
     </div>
-    <div class="gal_boxes col-sm-6 col-md-3 gal_6">
+    <div class="gal_boxes col-xs-6 col-md-3 gal_6">
+      <div class="coming_soon"></div>
       <div class="gal_img">
         <img src="images/jrv/seasonal.png" alt="" />
         <div class="gal_info_double gal_info gal_info_6">
@@ -59,7 +68,8 @@
       </div>
 
     </div>
-    <div class="gal_boxes col-sm-6 col-md-3 gal_7">
+    <div class="gal_boxes col-xs-6 col-md-3 gal_7">
+      <div class="coming_soon"></div>
       <div class="gal_img">
         <img src="images/jrv/sports.png" alt="" />
         <div class="gal_info gal_info_7">
@@ -67,7 +77,8 @@
         </div>
       </div>
     </div>
-    <div class="gal_boxes col-sm-6 col-md-3 gal_8">
+    <div class="gal_boxes col-xs-6 col-md-3 gal_8">
+      <div class="coming_soon"></div>
       <div class="gal_img">
         <img src="images/jrv/landscapes.png" alt="" />
         <div class="gal_info gal_info_8">
@@ -79,7 +90,8 @@
 
 
   <div class="row photo_gal">
-    <div class="gal_boxes col-sm-6 col-md-3 gal_9">
+    <div class="gal_boxes col-xs-6 col-md-3 gal_9">
+      <div class="coming_soon"></div>
       <div class="gal_img">
         <img src="images/jrv/marketing.png" alt="" />
       </div>
@@ -87,7 +99,8 @@
           <h1>Marketing</h1>
       </div>
     </div>
-    <div class="gal_boxes col-sm-6 col-md-3 gal_10">
+    <div class="gal_boxes col-xs-6 col-md-3 gal_10">
+      <div class="coming_soon"></div>
       <div class="gal_img">
         <img src="images/jrv/caught.png" alt="" />
         <div class="gal_info_double gal_info gal_info_10">
@@ -96,7 +109,8 @@
       </div>
 
     </div>
-    <div class="gal_boxes col-sm-6 col-md-3 gal_11">
+    <div class="gal_boxes col-xs-6 col-md-3 gal_11">
+      <div class="coming_soon"></div>
       <div class="gal_img">
         <img src="images/c.jpg" alt="" />
         <div class="gal_info_double gal_info gal_info_11" style="display:block !important">
@@ -104,7 +118,8 @@
         </div>
       </div>
     </div>
-    <div class="gal_boxes col-sm-6 col-md-3 gal_12">
+    <div class="gal_boxes col-xs-6 col-md-3 gal_12">
+      <div class="coming_soon"></div>
       <div class="gal_img">
         <img src="images/c.jpg" alt="" />
         <div class="gal_info_double gal_info gal_info_12" style="display:block !important">

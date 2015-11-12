@@ -16,7 +16,15 @@
 </head>
 <body>
 	<div class="loader">
-
+		<div class="home_box">
+			<div class="jumbotron">
+				<h1>JRockVision</h1>
+				<div class="home_logo">
+					<img src="images/jrv/jrvb.png" alt="" />
+				</div>
+				<h4>Coming Soon!</h4>
+			</div>
+		</div>
 	</div>
 
 	<div class="menu_box">
@@ -52,6 +60,10 @@
 
 	</div>
 
+
+
+
+
 	<div class="body_wrapper">
 
 
@@ -71,6 +83,9 @@
 
 	</nav> -->
 
+	<div class="back_img">
+		<!-- <img src="images/grid.jpg" alt="" /> -->
+	</div>
 	<div class="background">
 		<!-- slide 1 -->
 		<div class="slide" id="slide1" data-slide='1' data-stellar-background-ratio='0'>

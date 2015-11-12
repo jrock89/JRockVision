@@ -14,6 +14,9 @@
         .jumbotron{
           background: #fff !important;
         }
+        .photo_gal_box .jumbotron{
+          display: none;
+        }
       </style>
   </head>
   <body style="display:none;">

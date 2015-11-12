@@ -11,6 +11,7 @@ jQuery(document).ready(function ($) {
 
 
   $(".behind_menu").click(function() {
+    $('.menu_box').toggleClass('menu_box_slide');
     $('.body_wrapper').toggleClass('body_move');
       $('html, body').animate({
           scrollTop: $(".behind_the").offset().top
@@ -18,6 +19,7 @@ jQuery(document).ready(function ($) {
   });
 
   $(".photo_menu").click(function() {
+    $('.menu_box').toggleClass('menu_box_slide');
     $('.body_wrapper').toggleClass('body_move');
       $('html, body').animate({
           scrollTop: $("#slide4").offset().top
@@ -25,6 +27,7 @@ jQuery(document).ready(function ($) {
   });
 
   $(".video_menu").click(function() {
+    $('.menu_box').toggleClass('menu_box_slide');
     $('.body_wrapper').toggleClass('body_move');
       $('html, body').animate({
           scrollTop: $("#slide5_5").offset().top
@@ -32,6 +35,7 @@ jQuery(document).ready(function ($) {
   });
 
   $(".contact_menu").click(function() {
+    $('.menu_box').toggleClass('menu_box_slide');
     $('.body_wrapper').toggleClass('body_move');
       $('html, body').animate({
           scrollTop: $("#slide6").offset().top
@@ -87,7 +91,8 @@ jQuery(document).ready(function ($) {
           },700);
         }
         else{
-          $('body').fadeOut();
+          $('body').css('background', '#fff').fadeOut();
+
           setTimeout(function(){
             window.location.href = "index.php";
           },700);
@@ -108,12 +113,12 @@ jQuery(document).ready(function ($) {
     $('.gal_1').on('mouseleave', function(){
       $('.gal_info_1').fadeOut('fast');
     });
-    $('.gal_1').on('click', function(){
-      $('body').fadeOut();
-      setTimeout(function(){
-        window.location.href = "wedding.php";
-      },700);
-    });
+    // $('.gal_1').on('click', function(){
+    //   $('body').fadeOut();
+    //   setTimeout(function(){
+    //     window.location.href = "wedding.php";
+    //   },700);
+    // });
 
     //family gallery
     $('.gal_2').on('mouseover', function(){
@@ -122,12 +127,12 @@ jQuery(document).ready(function ($) {
     $('.gal_2').on('mouseleave', function(){
       $('.gal_info_2').fadeOut('fast');
     });
-    $('.gal_2').on('click', function(){
-      $('body').fadeOut();
-      setTimeout(function(){
-        window.location.href = "familey.php";
-      },700);
-    });
+    // $('.gal_2').on('click', function(){
+    //   $('body').fadeOut();
+    //   setTimeout(function(){
+    //     window.location.href = "familey.php";
+    //   },700);
+    // });
 
     //senor
     $('.gal_3').on('mouseover', function(){
@@ -136,12 +141,12 @@ jQuery(document).ready(function ($) {
     $('.gal_3').on('mouseleave', function(){
       $('.gal_info_3').fadeOut('fast');
     });
-    $('.gal_3').on('click', function(){
-      $('body').fadeOut();
-      setTimeout(function(){
-        window.location.href = "senior.php";
-      },700);
-    });
+    // $('.gal_3').on('click', function(){
+    //   $('body').fadeOut();
+    //   setTimeout(function(){
+    //     window.location.href = "senior.php";
+    //   },700);
+    // });
 
     //baby
     $('.gal_4').on('mouseover', function(){
@@ -150,12 +155,12 @@ jQuery(document).ready(function ($) {
     $('.gal_4').on('mouseleave', function(){
       $('.gal_info_4').fadeOut('fast');
     });
-    $('.gal_4').on('click', function(){
-      $('body').fadeOut();
-      setTimeout(function(){
-        window.location.href = "children.php";
-      },700);
-    });
+    // $('.gal_4').on('click', function(){
+    //   $('body').fadeOut();
+    //   setTimeout(function(){
+    //     window.location.href = "children.php";
+    //   },700);
+    // });
 
     //couples
     $('.gal_5').on('mouseover', function(){
@@ -164,12 +169,12 @@ jQuery(document).ready(function ($) {
     $('.gal_5').on('mouseleave', function(){
       $('.gal_info_5').fadeOut('fast');
     });
-    $('.gal_5').on('click', function(){
-      $('body').fadeOut();
-      setTimeout(function(){
-        window.location.href = "couples.php";
-      },700);
-    });
+    // $('.gal_5').on('click', function(){
+    //   $('body').fadeOut();
+    //   setTimeout(function(){
+    //     window.location.href = "couples.php";
+    //   },700);
+    // });
 
     //seasonal
     $('.gal_6').on('mouseover', function(){
@@ -178,12 +183,12 @@ jQuery(document).ready(function ($) {
     $('.gal_6').on('mouseleave', function(){
       $('.gal_info_6').fadeOut('fast');
     });
-    $('.gal_6').on('click', function(){
-      $('body').fadeOut();
-      setTimeout(function(){
-        window.location.href = "seasonal.php";
-      },700);
-    });
+    // $('.gal_6').on('click', function(){
+    //   $('body').fadeOut();
+    //   setTimeout(function(){
+    //     window.location.href = "seasonal.php";
+    //   },700);
+    // });
 
     //sports
     $('.gal_7').on('mouseover', function(){
@@ -192,12 +197,12 @@ jQuery(document).ready(function ($) {
     $('.gal_7').on('mouseleave', function(){
       $('.gal_info_7').fadeOut('fast');
     });
-    $('.gal_7').on('click', function(){
-      $('body').fadeOut();
-      setTimeout(function(){
-        window.location.href = "sports.php";
-      },700);
-    });
+    // $('.gal_7').on('click', function(){
+    //   $('body').fadeOut();
+    //   setTimeout(function(){
+    //     window.location.href = "sports.php";
+    //   },700);
+    // });
 
     //landscapes
     $('.gal_8').on('mouseover', function(){
@@ -206,12 +211,12 @@ jQuery(document).ready(function ($) {
     $('.gal_8').on('mouseleave', function(){
       $('.gal_info_8').fadeOut('fast');
     });
-    $('.gal_8').on('click', function(){
-      $('body').fadeOut();
-      setTimeout(function(){
-        window.location.href = "landscapes.php";
-      },700);
-    });
+    // $('.gal_8').on('click', function(){
+    //   $('body').fadeOut();
+    //   setTimeout(function(){
+    //     window.location.href = "landscapes.php";
+    //   },700);
+    // });
 
     //marketing
     $('.gal_9').on('mouseover', function(){
@@ -220,12 +225,12 @@ jQuery(document).ready(function ($) {
     $('.gal_9').on('mouseleave', function(){
       $('.gal_info_9').fadeOut('fast');
     });
-    $('.gal_9').on('click', function(){
-      $('body').fadeOut();
-      setTimeout(function(){
-        window.location.href = "marketing.php";
-      },700);
-    });
+    // $('.gal_9').on('click', function(){
+    //   $('body').fadeOut();
+    //   setTimeout(function(){
+    //     window.location.href = "marketing.php";
+    //   },700);
+    // });
 
     //caught
     $('.gal_10').on('mouseover', function(){
@@ -234,12 +239,12 @@ jQuery(document).ready(function ($) {
     $('.gal_10').on('mouseleave', function(){
       $('.gal_info_10').fadeOut('fast');
     });
-    $('.gal_10').on('click', function(){
-      $('body').fadeOut();
-      setTimeout(function(){
-        window.location.href = "caught.php";
-      },700);
-    });
+    // $('.gal_10').on('click', function(){
+    //   $('body').fadeOut();
+    //   setTimeout(function(){
+    //     window.location.href = "caught.php";
+    //   },700);
+    // });
 
 
     //video1 gallery
@@ -249,12 +254,12 @@ jQuery(document).ready(function ($) {
   $('.gal_vid_1').on('mouseleave', function(){
     $('.gal_info_vid_1').fadeOut('fast');
   });
-  $('.gal_vid_1').on('click', function(){
-    $('body').fadeOut();
-    setTimeout(function(){
-      window.location.href = "music-video.php";
-    },700);
-  });
+  // $('.gal_vid_1').on('click', function(){
+  //   $('body').fadeOut();
+  //   setTimeout(function(){
+  //     window.location.href = "music-video.php";
+  //   },700);
+  // });
 
 
       //video1 gallery
@@ -264,12 +269,12 @@ jQuery(document).ready(function ($) {
     $('.gal_vid_2').on('mouseleave', function(){
       $('.gal_info_vid_2').fadeOut('fast');
     });
-    $('.gal_vid_2').on('click', function(){
-      $('body').fadeOut();
-      setTimeout(function(){
-        window.location.href = "marketing-video.php";
-      },700);
-    });
+    // $('.gal_vid_2').on('click', function(){
+    //   $('body').fadeOut();
+    //   setTimeout(function(){
+    //     window.location.href = "marketing-video.php";
+    //   },700);
+    // });
 
 
         //video3 gallery
@@ -279,12 +284,12 @@ jQuery(document).ready(function ($) {
       $('.gal_vid_3').on('mouseleave', function(){
         $('.gal_info_vid_3').fadeOut('fast');
       });
-      $('.gal_vid_3').on('click', function(){
-        $('body').fadeOut();
-        setTimeout(function(){
-          window.location.href = "wedding-video.php";
-        },700);
-      });
+      // $('.gal_vid_3').on('click', function(){
+      //   $('body').fadeOut();
+      //   setTimeout(function(){
+      //     window.location.href = "wedding-video.php";
+      //   },700);
+      // });
 
 
           //video4 gallery
@@ -294,12 +299,12 @@ jQuery(document).ready(function ($) {
         $('.gal_vid_4').on('mouseleave', function(){
           $('.gal_info_vid_4').fadeOut('fast');
         });
-        $('.gal_vid_4').on('click', function(){
-          $('body').fadeOut();
-          setTimeout(function(){
-            window.location.href = "sports-video.php";
-          },700);
-        });
+        // $('.gal_vid_4').on('click', function(){
+        //   $('body').fadeOut();
+        //   setTimeout(function(){
+        //     window.location.href = "sports-video.php";
+        //   },700);
+        // });
 
 
 
@@ -324,6 +329,7 @@ jQuery(document).ready(function ($) {
 
     $('.menu_btn').on('click', function(){
       $('.body_wrapper').toggleClass('body_move');
+      $('.menu_box').toggleClass('menu_box_slide');
     });
 
     $('#theNav').hide();
