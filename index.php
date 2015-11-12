@@ -21,29 +21,29 @@
 
 	<div class="menu_box">
 			<div class="row">
-				<div class="col-xs-6 behind_menu">
+				<div class="col-lg-6 behind_menu">
 					<div class="inner_menu_box ">
 
 							<div>Behind the Lens</div>
 					</div>
 				</div>
-				<div class="col-xs-6">
-					<div class="inner_menu_box photo_menu">
+				<div class="col-lg-6 photo_menu">
+					<div class="inner_menu_box">
 
 							<div>Photography</div>
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-xs-6">
-					<div class="inner_menu_box video_menu">
+				<div class="col-lg-6 video_menu">
+					<div class="inner_menu_box">
 
 							<div>Videography</div>
 					</div>
 
 				</div>
-				<div class="col-xs-6">
-					<div class="inner_menu_box contact_menu">
+				<div class="col-lg-6 contact_menu">
+					<div class="inner_menu_box">
 
 							<div>Contact</div>
 					</div>
