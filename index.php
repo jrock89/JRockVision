@@ -15,14 +15,15 @@
 
 </head>
 <body>
+	<?php include_once("analyticstracking.php") ?>
 	<div class="loader">
-		<div class="home_box">
+		<div class="home_box_1">
 			<div class="jumbotron">
 				<h1>JRockVision</h1>
 				<div class="home_logo">
 					<img src="images/jrv/jrvb.png" alt="" />
 				</div>
-				<h4>Coming Soon!</h4>
+				<h4>Please wait...<br>Your gonna wanna see this!</h4>
 			</div>
 		</div>
 	</div>
@@ -31,13 +32,11 @@
 			<div class="row">
 				<div class="col-lg-6 behind_menu">
 					<div class="inner_menu_box ">
-
 							<div>Behind the Lens</div>
 					</div>
 				</div>
 				<div class="col-lg-6 photo_menu">
 					<div class="inner_menu_box">
-
 							<div>Photography</div>
 					</div>
 				</div>
@@ -45,61 +44,39 @@
 			<div class="row">
 				<div class="col-lg-6 video_menu">
 					<div class="inner_menu_box">
-
 							<div>Videography</div>
 					</div>
-
 				</div>
 				<div class="col-lg-6 contact_menu">
 					<div class="inner_menu_box">
-
 							<div>Contact</div>
 					</div>
 				</div>
 		</div>
-
 	</div>
 
 
-
-
-
 	<div class="body_wrapper">
-
-
 		<?php
 			include('menu.php');
 		?>
-	<!-- <nav id="theNav" class="navbar navbar-fixed-left navigation">
-		<ul>
-			<li data-slide='1'><a href="#" id="btnOne" class=" btn btn-default btns">Home<br><span class="glyphicon glyphicon-home" aria-hidden="true"></a></li>
-			<li data-slide='2'><a href="#" id="btnTwo" class="btn btn-default btns">About<br><span class="glyphicon glyphicon-user" aria-hidden="true"></a></li>
 
-			<li data-slide='3'><a href="#" id="btnThree" class="btn btn-default btns">Portfolio<br><span class="glyphicon glyphicon-camera" aria-hidden="true"></a></li>
-
-			<li data-slide='4'><a href="#" id="btnFour" class="btn btn-default btns">Contact<br><span class="glyphicon glyphicon-envelope" aria-hidden="true"></a></li>
-			<li id="themeNavBar"></li>
-		</ul>
-
-	</nav> -->
 
 	<div class="back_img">
 		<!-- <img src="images/grid.jpg" alt="" /> -->
 	</div>
+
 	<div class="background">
 		<!-- slide 1 -->
 		<div class="slide" id="slide1" data-slide='1' data-stellar-background-ratio='0'>
-
 			<div class="home_box">
 				<div class="jumbotron">
-					<h1>JRockVision</h1>
+					<h1 style="color:#f2f2f2;">JRockVision</h1>
 					<div class="home_logo">
-						<img src="images/jrv/jrvb.png" alt="" />
+						<img src="images/jrv/jrvw.png" alt="" />
 					</div>
 				</div>
 			</div>
-
-
 		</div>
 
 		<div class="behind_the">
@@ -109,88 +86,40 @@
 		</div>
 		<!-- slide 2 -->
 		<div class="slide edge--bottom" id="slide2" data-slide='2' data-stellar-background-ratio='0.1'>
-
 					<?php
 							include('jamie.php');
 					?>
-
-
-
 		</div>
 		<!-- slide 2_5 -->
 		<div class="slide edge--top--reverse" id="slide2_5" data-slide='2_5' data-stellar-background-ratio='0.1'>
-
 					<?php
 							include('laura.php');
 					?>
-
-
-
 		</div>
-
-		<!-- slide 3 -->
-		<div class="slide" id="slide3" data-slide='3' data-stellar-background-ratio='0.1'>
-			<div class="container">
-				<div class="row">
-
-				</div>
-			</div>
-
-
-		</div>
-
 
 
 
 		<!-- slide 4 -->
 		<div class="slide edge--bottom" id="slide4" data-slide='4' data-stellar-background-ratio='0.1'>
-
 			<?php
 				include('photography.php');
 			?>
-
-
-
 		</div>
 
-		<!-- slide 5 -->
-		<div class="slide" id="slide5" data-slide='5' data-stellar-background-ratio='0.1'>
-			<div class="container">
-				<div class="row">
-
-				</div>
-			</div>
-
-
-		</div>
 
 		<!-- slide 5.5 -->
 		<div class="slide edge--top--reverse" id="slide5_5" data-slide='5_5' data-stellar-background-ratio='0.1'>
 			<?php
 				include('videography.php');
 			?>
-
-
 		</div>
 
-		<!-- slide 6.5 -->
-		<div class="slide" id="slide6_5" data-slide='6_5' data-stellar-background-ratio='0.1'>
-			<div class="container">
-				<div class="row">
-
-				</div>
-			</div>
-
-
-		</div>
 
 		<!-- slide 6 -->
 		<div class="slide" id="slide6" data-slide='6' data-stellar-background-ratio='0.1'>
-
 					<?php
 						include('contact.php');
 					?>
-
 		</div>
 		<!-- 	</div> -->
 

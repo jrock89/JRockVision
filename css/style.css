@@ -76,15 +76,35 @@ body{
 	position: absolute;
 	height: 100vh;
 	width: 100%;
-	background: rgba(255, 255, 255, 0.35);
+	background: rgba(0, 0, 0, 0.51);
 	padding-top: 25vh;
 	font-family: 'Vollkorn', serif;
 
 }
+
+
 .home_box .jumbotron{
 	background: transparent;
 	text-align: center;
 }
+
+
+.home_box_1{
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.51);
+	padding-top: 25vh;
+	font-family: 'Vollkorn', serif;
+
+}
+
+
+.home_box_1 .jumbotron{
+	background: transparent;
+	text-align: center;
+}
+
 .home_logo img{
 	width: 100%;
 	opacity: 0.8;
@@ -326,62 +346,71 @@ top: 40px;
 right: 1%;
 border-radius: 3px;
 margin-left: -25px;
-color: #000;
-border-bottom:3px solid #292727;
 cursor: pointer;
 padding: 0;
 text-align: center;
 font-size: 35px;
 line-height: 1;
-color:gainsboro;
 opacity: 1;
-background: #636262;
 padding: 2px 5px;
 z-index: 99;
+
+color:#636262;
+background: #f2f2f2;
+border-bottom: 3px solid #161718;
+border-radius: 3px;
 }
 .menu_btn{
 	display: block;
 width: 50px;
 height: 50px;
 position: fixed;
-top: 100px;
-right: 1%;
+top: 20px;
+right: 20px;
 border-radius: 3px;
 margin-left: -25px;
-color: #000;
-border-bottom:3px solid #292727;
 cursor: pointer;
 padding: 0;
 text-align: center;
 font-size: 35px;
 line-height: 1;
-color:gainsboro;
-opacity: 1;
-background: #636262;
+opacity: 0.8;
 padding: 5px 8px;
 z-index: 99;
+border: 1px solid #161718;
+color:#636262;
+background: #f2f2f2;
+border-bottom: 3px solid #161718;
+border-radius: 3px;
+}
+.btn_m_2{
+	display: none;
 }
 .button {
 	display:block;
 	width:50px;
 	height:50px;
 	position:fixed;
-	top: 160px;
-	right: 1%;
-	border-radius: 3px;
+	bottom: 20px;
+	right: 20px;
 	margin-left:-25px;
-	color:#636262;
-	border-bottom:3px solid #292727;
+
 	cursor:pointer;
 	padding:0;
 	text-align:center;
 	font-size:35px;
 	line-height:1;
-	color:gainsboro;
 	z-index: 99;
-	opacity:1;
-background: #636262;
+	opacity:0.8;
+
 display: none;
+
+color:#636262;
+background: #f2f2f2;
+border: 1px solid #161718;
+border-bottom: 3px solid #161718;
+border-radius: 3px;
+
 }
 .button_drk{
 
@@ -402,11 +431,10 @@ display: none;
 }
 
 .button:hover, .menu_btn:hover{
-	color:#000;
+	color:#636262;
 	opacity:1;
 	text-decoration:none;
-	background:  rgba(255, 255, 255, 0.95);
-	border-bottom:3px solid gainsboro;
+	/*background: #636262;*/
 
 }
 
@@ -416,7 +444,7 @@ display: none;
 }
 
 body {
-	background:url("../images/grid.jpg") no-repeat center center fixed;
+	background:url("../images/grid.jpg") repeat center center fixed;
 	/*background:url("../images/jrv/grid.png") no-repeat center center fixed;*/
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -446,30 +474,10 @@ body {
 	border-bottom: 3px solid gainsboro;
 }
 
-#slide3 {
-	/*background:url("../images/jrv/grid.png") no-repeat center center fixed;*/
-		background:url("../images/jrv/moon.jpg") no-repeat center center fixed;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
-	height: 50vh;
-	display: none;
-}
 
 #slide4 {
 	height: auto;
 	background:#f2f2f2;
-}
-
-#slide5 {
-	height: 50vh;
-	background:url("../images/jrv/gong.png") no-repeat center center fixed;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
-	display: none;
 }
 
 #slide5_5{
@@ -480,16 +488,7 @@ body {
 #slide5_5 .jumbotron{
 	background: #fff;
 }
-#slide6_5 {
-	height: 50vh;
-	background:url("../images/jrv/bird.png") no-repeat center center fixed;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
-	display: none;
 
-}
 #slide6 {
 	/*background:url("../images/a.jpg") no-repeat center center fixed;
 	-webkit-background-size:cover;
@@ -790,7 +789,7 @@ opacity: 0.7;
 
 }
 .inner_jamie{
-	border-bottom:3px solid #A7B1BB;
+	    border: 10px solid #FFF;
 
 	position: relative;
 	left:-1000px;
@@ -798,6 +797,9 @@ opacity: 0.7;
 	-moz-transition:all 0.4s ease-out;
 	-webkit-transition:all 0.4s ease-out;
 	-o-transition:all 0.4s ease-out;
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
 }
 .shift_inner_jamie{
 	transition:all 0.4s ease-out;
@@ -807,13 +809,16 @@ opacity: 0.7;
 	left: 0;
 }
 .inner_laura{
-	border-bottom: 3px solid #B73954;
+	    border: 10px solid #FFF;
 	position: relative;
 	right:-1000px;
 	transition:all 0.4s ease-out;
 	-moz-transition:all 0.4s ease-out;
 	-webkit-transition:all 0.4s ease-out;
 	-o-transition:all 0.4s ease-out;
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
 }
 .shift_inner_laura{
 	transition:all 0.4s ease-out;
@@ -833,17 +838,17 @@ opacity: 0.7;
 
 
 .inner_jamie img{
-	/*width: 100%;*/
-	height: 100%;
+	width: 100%;
+	height:auto;
 	position: relative;
-	left:1px;
 }
 
 .inner_laura img{
-	/*width: 100%;*/
+	/* width: 100%; */
 	height: 100%;
 	position: relative;
-	right:55px;
+	right: 55px;
+	top: 0;
 }
 
 
@@ -998,6 +1003,15 @@ opacity: 0.7;
 }
 
 @media (max-width: 1200px) {
+
+	.btn_m_1{
+		display: none;
+	}
+	.btn_m_2{
+		display: block;
+	}
+
+
   #photos {
   -moz-column-count:    4;
   -webkit-column-count: 4;
@@ -1024,7 +1038,7 @@ opacity: 0.7;
   #photos {
   -moz-column-count:    3;
   -webkit-column-count: 3;
-  column-count:         3;
+  column-count:         3;: rgba(0, 0, 0, 0.51);
   }
 
 	#slide6 {
@@ -1036,6 +1050,50 @@ opacity: 0.7;
 
 }
 @media (max-width: 800px) {
+
+
+
+	.menu_btn{
+
+		top: 5px;
+		right: 5px;
+
+	}
+
+	.button{
+		bottom: 5px;
+		right:5px;
+	}
+
+
+
+	.home_box{
+
+		/*background: rgba(255, 255, 255, 0.6);*/
+
+	}
+	body {
+		background:url("../images/grid.jpg") repeat center top fixed;
+		/*background:url("../images/jrv/grid.png") no-repeat center center fixed;*/
+		-webkit-background-size:auto 100vh;
+		-moz-background-size:auto 100vh;
+		-o-background-size:auto 100vh;
+		background-size:auto 100vh;
+	}
+
+
+	.inner_jamie{
+
+		left:0;
+
+	}
+
+	.inner_laura{
+
+		right:0;
+
+	}
+
   #photos {
   -moz-column-count:    2;
   -webkit-column-count: 2;

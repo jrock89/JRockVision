@@ -20,6 +20,7 @@
       </style>
   </head>
   <body style="display:none;">
+    <?php include_once("analyticstracking.php") ?>
     <div class="loader">
 
     </div>

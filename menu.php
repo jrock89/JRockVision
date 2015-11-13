@@ -2,10 +2,11 @@
 
 
 
-<a class="home_btn" data-slide='1'><img src="images/jrv/jrvw.png" alt="" /></a>
+<!-- <a class="home_btn" data-slide='1'><img src="images/jrv/jrvb.png" alt="" /></a> -->
 
 
-<span class="menu_btn glyphicon glyphicon-th" aria-hidden="true"></span>
+<a class="btn_m_1 menu_btn glyphicon glyphicon-th" aria-hidden="true"></a>
+<a class="btn_m_2 menu_btn glyphicon glyphicon-align-justify" aria-hidden="true"></a>
 
 
 <a class="button btn_1" data-slide='2' title=''>&#x2193;</a>

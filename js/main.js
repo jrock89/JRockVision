@@ -80,7 +80,7 @@ jQuery(document).ready(function ($) {
   // });
 
 
-      $('.home_btn').on('click', function(){
+      $('.home_logo').on('click', function(){
 
 
         if($('.whos_house').text() === "gallery")
@@ -336,17 +336,23 @@ jQuery(document).ready(function ($) {
 
 
     $('#jamie').waypoint(function() {
+        // $('.inner_jamie').html('<img src="images/jrv/jamie.jpg" alt="" />');
       setTimeout(function(){
+
           $('.inner_jamie').toggleClass('shift_inner_jamie');
       }, 200);
-
+ this.destroy()
 
     },{offset:'99%'});
 
     $('#laura').waypoint(function() {
+      // $('.inner_laura').html('<img src="images/jrv/laura2.png" alt="" />');
       setTimeout(function(){
+
+
           $('.inner_laura').toggleClass('shift_inner_laura');
       }, 200);
+       this.destroy()
     },{offset:'99%'});
 
     $('#slide2').waypoint(function() {
