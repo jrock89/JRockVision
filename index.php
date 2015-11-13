@@ -6,6 +6,9 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
+	<meta property="og:image" content="images/jrv/screen.jpg" />
+	<meta property="og:title" content="JRockVision" />
+	<meta property="og:description" content="Photography | Videography | Saratoga Springs NY | Jamie Rock & Laura Hogan" />
 
 	<link rel="shortcut icon" href="images/jrv/jrvb.png">
 	<link rel="stylesheet" href="css/bootstrap.css">
