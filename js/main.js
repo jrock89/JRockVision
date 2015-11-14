@@ -49,6 +49,11 @@ jQuery(document).ready(function ($) {
 
   $(window).load(function(){
     $('.loader').fadeOut('slow');
+
+
+    $('.gal_1 .gal_img').html('<img src="images/jrv/ring.png" alt="" />');
+
+
   });
 
 

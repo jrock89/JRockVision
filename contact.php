@@ -2,9 +2,11 @@
   <div class="row">
     <div class="col-md-6">
       <div class="">
-        <h2 class="contact_info tel"><a href="tel:518-321-6100"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> 518.321.6100</a></h2>
+        <h2 class="contact_info tel"><a href="tel:518-321-6100"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> Jamie Rock: <i>518.321.6100</i></a></h2>
 
-        <h2 class="contact_info loc"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Saratoga Springs</h2>
+        <h2 class="contact_info tel"><a href="tel:518-321-3300"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> Laura Hogan: <i>518.321.3300</i></a></h2>
+
+        <h2 class="contact_info loc"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Saratoga Springs</h2>
 
         <h2 class="contact_info ema"><a href="mailto:jajamie101@gmail.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Jajamie101@gmail.com</a></h2>
       </div>

@@ -444,7 +444,7 @@ border-radius: 3px;
 }
 
 body {
-	background:url("../images/grid.jpg") repeat center center fixed;
+	background:url("../images/jrv/jamieandlaura.jpg") repeat top center fixed;
 	/*background:url("../images/jrv/grid.png") no-repeat center center fixed;*/
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -1073,7 +1073,7 @@ box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
 
 	}
 	body {
-		background:url("../images/grid.jpg") repeat center top fixed;
+		background:url("../images/jrv/jamieandlaura.jpg") repeat center top fixed;
 		/*background:url("../images/jrv/grid.png") no-repeat center center fixed;*/
 		-webkit-background-size:auto 100vh;
 		-moz-background-size:auto 100vh;

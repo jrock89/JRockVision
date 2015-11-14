@@ -12,7 +12,7 @@
     <div class="gal_boxes col-xs-6 col-md-3 gal_1">
       <div class="coming_soon"></div>
       <div class="gal_img">
-        <img src="images/jrv/ring.png" alt="" />
+        
       </div>
       <div class="gal_info_double gal_info gal_info_1">
           <h1>Wedding<br>& Engagement</h1>
