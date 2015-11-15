@@ -53,8 +53,8 @@ jQuery(document).ready(function ($) {
     $('.inner_laura').html('<img src="images/jrv/laura2.png" alt="" />');
 
 
-    $('.gal_1 .gal_img').html('<img src="images/jrv/ring.png" alt="" />');
-    $('.gal_1 .gal_img').html('<img src="images/jrv/family.png" alt="" />');
+
+
 
 
 
@@ -63,6 +63,8 @@ jQuery(document).ready(function ($) {
 
   $('.btn_1').show();
 
+
+
   $('#slide2').waypoint(function() {
     $('.btn_1').toggle();
     $('.btn_2').toggle();
@@ -70,10 +72,31 @@ jQuery(document).ready(function ($) {
   $('#slide2_5').waypoint(function() {
     $('.btn_2').toggle();
     $('.btn_3').toggle();
+
+
+    $('.gal_1 .gal_img').html('<img src="images/jrv/ring.png" alt="" />');
+    $('.gal_2 .gal_img').html('<img src="images/jrv/family.png" alt="" />');
+    $('.gal_3 .gal_img').html('<img src="images/jrv/senor.png" alt="" />');
+    $('.gal_4 .gal_img').html('<img src="images/jrv/children.png" alt="" />');
+    $('.gal_5 .gal_img').html('<img src="images/jrv/couples.png" alt="" />');
+    $('.gal_6 .gal_img').html('<img src="images/jrv/seasonal.png" alt="" />');
+    $('.gal_7 .gal_img').html('<img src="images/jrv/sports.png" alt="" />');
+    $('.gal_8 .gal_img').html('<img src="images/jrv/landscapes.png" alt="" />');
+    $('.gal_9 .gal_img').html('<img src="images/jrv/marketing.png" alt="" />');
+    $('.gal_10 .gal_img').html('<img src="images/jrv/caught.png" alt="" />');
+    $('.gal_11 .gal_img').html('<img src="images/c.jpg" alt="" />');
+    $('.gal_12 .gal_img').html('<img src="images/c.jpg" alt="" />');
   });
   $('#slide4').waypoint(function() {
     $('.btn_3').toggle();
     $('.btn_4').toggle();
+
+
+    $('.gal_vid_1 .gal_img').html('<img src="images/jrv/music_vid.png" alt="" />');
+    $('.gal_vid_2 .gal_img').html('<img src="images/jrv/mark_vid.png" alt="" />');
+    $('.gal_vid_3 .gal_img').html('<img src="images/jrv/ring.png" alt="" />');
+    $('.gal_vid_4 .gal_img').html('<img src="images/jrv/sports_vid.png" alt="" />');
+
   });
   $('#slide5_5').waypoint(function() {
     $('.btn_4').toggle();
