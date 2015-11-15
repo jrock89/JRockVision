@@ -49,9 +49,13 @@ jQuery(document).ready(function ($) {
 
   $(window).load(function(){
     $('.loader').fadeOut('slow');
+    $('.inner_jamie').html('<img src="images/jrv/jamie.jpg" alt="" />');
+    $('.inner_laura').html('<img src="images/jrv/laura2.png" alt="" />');
 
 
     $('.gal_1 .gal_img').html('<img src="images/jrv/ring.png" alt="" />');
+    $('.gal_1 .gal_img').html('<img src="images/jrv/family.png" alt="" />');
+
 
 
   });

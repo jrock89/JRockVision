@@ -8,7 +8,7 @@
   </div>
   <div class="col-sm-5 port_img_box">
     <div class="port_img_box_inner inner_laura">
-      <img src="images/jrv/laura2.png" alt="" />
+      <div class="loader_img"><img src="images/jrv/jrvb.gif" alt="" /></div>
     </div>
   </div>
 

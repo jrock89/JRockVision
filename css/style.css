@@ -582,40 +582,6 @@ opacity: 0.7;
 
 
 
-.car_item_1{
-	height: 100vh;
-	background:url("../images/b.jpg") no-repeat center center fixed;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
-}
-.car_item_2{
-	height: 100vh;
-	background:url("../images/a.jpg") no-repeat center center fixed;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
-}
-.car_item_3{
-	height: 100vh;
-	background:url("../images/moon.jpg") no-repeat center center fixed;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
-}
-.car_item_4{
-	height: 100vh;
-	background:url("../images/c.jpg") no-repeat center center fixed;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
-}
-
-
 /*angled edge bottom*/
 .edge--bottom {
   position: relative;
