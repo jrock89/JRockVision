@@ -1,7 +1,7 @@
 <div class="row portfolio">
   <div class="col-sm-5 port_img_box">
     <div class="port_img_box_inner inner_jamie">
-      <div class="loader_img"><img src="images/jrv/jrvb.gif" alt="" /></div>
+      <img src="images/jrv/jamie.png" alt="" />
     </div>
   </div>
   <div class="col-sm-7 port_info_box">

@@ -46,11 +46,24 @@ jQuery(document).ready(function ($) {
 
 
 
+  $('.gal_1 .gal_img').html('<img src="images/jrv/ring.png" alt="" />');
+  $('.gal_2 .gal_img').html('<img src="images/jrv/family.png" alt="" />');
+  $('.gal_3 .gal_img').html('<img src="images/jrv/senor.png" alt="" />');
+  $('.gal_4 .gal_img').html('<img src="images/jrv/children.png" alt="" />');
+  $('.gal_5 .gal_img').html('<img src="images/jrv/couples.png" alt="" />');
+  $('.gal_6 .gal_img').html('<img src="images/jrv/seasonal.png" alt="" />');
+  $('.gal_7 .gal_img').html('<img src="images/jrv/sports.png" alt="" />');
+  $('.gal_8 .gal_img').html('<img src="images/jrv/landscapes.png" alt="" />');
+  $('.gal_9 .gal_img').html('<img src="images/jrv/marketing.png" alt="" />');
+  $('.gal_10 .gal_img').html('<img src="images/jrv/caught.jpg" alt="" />');
+  $('.gal_11 .gal_img').html('<img src="images/c.jpg" alt="" />');
+  $('.gal_12 .gal_img').html('<img src="images/c.jpg" alt="" />');
+
 
   $(window).load(function(){
     $('.loader').fadeOut('slow');
-    $('.inner_jamie').html('<img src="images/jrv/jamie.jpg" alt="" />');
-    $('.inner_laura').html('<img src="images/jrv/laura2.png" alt="" />');
+    // $('.inner_jamie').html('<img src="images/jrv/jamie.png" alt="" />');
+    // $('.inner_laura').html('<img src="images/jrv/laura.png" alt="" />');
 
 
 
@@ -74,18 +87,15 @@ jQuery(document).ready(function ($) {
     $('.btn_3').toggle();
 
 
-    $('.gal_1 .gal_img').html('<img src="images/jrv/ring.png" alt="" />');
-    $('.gal_2 .gal_img').html('<img src="images/jrv/family.png" alt="" />');
-    $('.gal_3 .gal_img').html('<img src="images/jrv/senor.png" alt="" />');
-    $('.gal_4 .gal_img').html('<img src="images/jrv/children.png" alt="" />');
-    $('.gal_5 .gal_img').html('<img src="images/jrv/couples.png" alt="" />');
-    $('.gal_6 .gal_img').html('<img src="images/jrv/seasonal.png" alt="" />');
-    $('.gal_7 .gal_img').html('<img src="images/jrv/sports.png" alt="" />');
-    $('.gal_8 .gal_img').html('<img src="images/jrv/landscapes.png" alt="" />');
-    $('.gal_9 .gal_img').html('<img src="images/jrv/marketing.png" alt="" />');
-    $('.gal_10 .gal_img').html('<img src="images/jrv/caught.png" alt="" />');
-    $('.gal_11 .gal_img').html('<img src="images/c.jpg" alt="" />');
-    $('.gal_12 .gal_img').html('<img src="images/c.jpg" alt="" />');
+
+
+
+
+    // 
+    // $('.photo_gal_box_wrap').slideToggle();
+    // $('.loading_photo_gal').hide();
+
+
   });
   $('#slide4').waypoint(function() {
     $('.btn_3').toggle();

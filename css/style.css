@@ -813,7 +813,7 @@ box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
 	/* width: 100%; */
 	height: 100%;
 	position: relative;
-	right: 55px;
+	/*right: 55px;*/
 	top: 0;
 }
 
@@ -868,6 +868,27 @@ box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
 	background-size:cover;
 }*/
 
+.photo_gal_box_wrap{
+	/*display: none;*/
+}
+
+.loading_photo_gal{
+	height: 250px;
+	width: 100%;
+	text-align: center;
+	padding: 30px;
+	background: #f2f2f2;
+	z-index: 9999;
+	display: none;
+}
+
+.loading_photo_gal img{
+	height: 190px;
+}
+
+.photo_gal{
+	background: #000;
+}
 .photo_gal img{
 	width: 100%;
 }

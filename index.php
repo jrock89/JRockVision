@@ -22,11 +22,11 @@
 	<div class="loader">
 		<div class="home_box_1">
 			<div class="jumbotron">
-				<h1>JRockVision</h1>
+				<!-- <h1>JRockVision</h1> -->
 				<div class="home_logo">
-					<img src="images/jrv/jrvb.png" alt="" />
+					<img src="images/jrv/jrvb.gif" alt="" />
 				</div>
-				<h4>Please wait...<br>Your gonna wanna see this!</h4>
+				<!-- <h4>Please wait...<br>Your gonna wanna see this!</h4> -->
 			</div>
 		</div>
 	</div>
