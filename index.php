@@ -74,11 +74,11 @@
 		<div class="slide" id="slide1" data-slide='1' data-stellar-background-ratio='0'>
 			<div class="home_box">
 				<div class="jumbotron">
-					<h1 style="color:#f2f2f2;">JRockVision</h1>
+					<!-- <h1 style="color:#f2f2f2;">JRockVision</h1> -->
 					<div class="home_logo">
 						<img src="images/jrv/jrvw.png" alt="" />
 					</div>
-					<h2 style="color:#f2f2f2;opacity:0.7;">Photography | Videography</h2>
+					<!-- <h2 style="color:#f2f2f2;opacity:0.7;">Photography | Videography</h2> -->
 					<div class="explore_wrap">
 						<div class="explore">
 							Behind the Lens
