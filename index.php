@@ -78,6 +78,13 @@
 					<div class="home_logo">
 						<img src="images/jrv/jrvw.png" alt="" />
 					</div>
+					<h2 style="color:#f2f2f2;opacity:0.7;">Photography | Videography</h2>
+					<div class="explore_wrap">
+						<div class="explore">
+							Behind the Lens
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</div>

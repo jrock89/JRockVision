@@ -8,7 +8,7 @@
     </div>
   </div>
 
-  <div class="row photo_gal">
+  <div class="row photo_gal video_gal_box_wrap">
 
     <div class="gal_boxes col-sm-6 col-md-3 gal_vid_1">
       <div class="coming_soon"></div>
@@ -46,7 +46,7 @@
         <div class="coming_soon"></div>
       <div class="gal_img">
         <div class="loader_img"><img src="images/jrv/jrvb.gif" alt="" /></div>
-        
+
 
       </div>
       <div class="gal_info gal_info_vid_4">
@@ -56,6 +56,8 @@
     </div>
 
   </div>
+  <div class="toggle_menu_color">
 
+  </div>
 
 </div>

@@ -17,6 +17,12 @@ jQuery(document).ready(function ($) {
           scrollTop: $(".behind_the").offset().top
       }, 900);
   });
+  $(".explore").click(function() {
+
+      $('html, body').animate({
+          scrollTop: $(".behind_the").offset().top
+      }, 900);
+  });
 
   $(".photo_menu").click(function() {
     $('.menu_box').toggleClass('menu_box_slide');
@@ -66,7 +72,7 @@ jQuery(document).ready(function ($) {
     // $('.inner_laura').html('<img src="images/jrv/laura.png" alt="" />');
 
 
-
+    // $('body').toggleClass('body_img_move');
 
 
 
@@ -76,6 +82,23 @@ jQuery(document).ready(function ($) {
 
   $('.btn_1').show();
 
+
+
+$('.behind_the').waypoint(function() {
+  $('.menu_btn').toggleClass('dark_menu');
+});
+
+$('.photo_gal_box_wrap').waypoint(function() {
+  $('.menu_btn').toggleClass('dark_menu');
+});
+
+$('.toggle_menu_color').waypoint(function() {
+  $('.menu_btn').toggleClass('dark_menu');
+});
+
+$('.video_gal_box_wrap').waypoint(function() {
+  $('.menu_btn').toggleClass('dark_menu');
+});
 
 
   $('#slide2').waypoint(function() {
@@ -91,7 +114,7 @@ jQuery(document).ready(function ($) {
 
 
 
-    // 
+    //
     // $('.photo_gal_box_wrap').slideToggle();
     // $('.loading_photo_gal').hide();
 

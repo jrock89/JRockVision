@@ -360,9 +360,13 @@ background: #f2f2f2;
 border-bottom: 3px solid #161718;
 border-radius: 3px;
 }
+.btn_m_1{
+	font-family: 'Vollkorn', serif;
+}
 .menu_btn{
 	display: block;
-width: 50px;
+/*width: 50px;*/
+
 height: 50px;
 position: fixed;
 top: 20px;
@@ -377,17 +381,49 @@ line-height: 1;
 opacity: 0.8;
 padding: 5px 8px;
 z-index: 99;
-border: 1px solid #161718;
-color:#636262;
-background: #f2f2f2;
-border-bottom: 3px solid #161718;
+/*border: 1px solid #161718;*/
+color:#f2f2f2;
+/*background: rgba(255, 255, 255, 0.3);;*/
+/*border-bottom: 3px solid #161718;*/
 border-radius: 3px;
+}
+.dark_menu{
+	color:#0F0F13;
 }
 .btn_m_2{
 	display: none;
 }
+.explore_wrap{
+	height: 105px;
+	width: 100%;
+	position: absolute;
+	bottom:0;
+}
+.explore{
+	border:3px solid #f2f2f2;
+	width: 250px;
+	margin:0 auto;
+	color: #f2f2f2;
+	border-radius: 3px;
+	padding: 15px;
+	font-size: 21px;
+	position: relative;
+	cursor: pointer;
+	transition:all 0.1s ease-out;
+	-moz-transition:all 0.1s ease-out;
+	-webkit-transition:all 0.1s ease-out;
+	-o-transition:all 0.1s ease-out;
+}
+.explore:hover{
+	transition:all 0.1s ease-out;
+	-moz-transition:all 0.1s ease-out;
+	-webkit-transition:all 0.1s ease-out;
+	-o-transition:all 0.1s ease-out;
+	width: 260px;
+	padding: 20px;
+}
 .button {
-	display:block;
+	display:none !important;
 	width:50px;
 	height:50px;
 	position:fixed;
@@ -997,7 +1033,9 @@ box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
 	.btn_m_2{
 		display: block;
 	}
-
+.menu_btn{
+	width: 50px;
+}
 
   #photos {
   -moz-column-count:    4;

@@ -5,7 +5,7 @@
 <!-- <a class="home_btn" data-slide='1'><img src="images/jrv/jrvb.png" alt="" /></a> -->
 
 
-<a class="btn_m_1 menu_btn glyphicon glyphicon-th" aria-hidden="true"></a>
+<a class="btn_m_1 menu_btn" aria-hidden="true">menu</a>
 <a class="btn_m_2 menu_btn glyphicon glyphicon-align-justify" aria-hidden="true"></a>
 
 
