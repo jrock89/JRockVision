@@ -403,6 +403,10 @@ border-radius: 3px;
 	bottom:0;
 }
 .explore{
+	background: #BF5858;
+color: #f2f2f2;
+font-family: "Arial Black", Gadget, sans-serif !important;
+line-height: 1;
 	border:3px solid #f2f2f2;
 	width: 250px;
 	margin:0 auto;
@@ -418,6 +422,7 @@ border-radius: 3px;
 	-o-transition:all 0.1s ease-out;
 }
 .explore:hover{
+	    background: #232728;
 	transition:all 0.1s ease-out;
 	-moz-transition:all 0.1s ease-out;
 	-webkit-transition:all 0.1s ease-out;
@@ -470,8 +475,8 @@ border-radius: 3px;
 }
 
 .button:hover, .menu_btn:hover{
-	color:#636262;
-	opacity:1;
+	color:#f2f2f2;
+	opacity:0.5 !important;
 	text-decoration:none;
 	/*background: #636262;*/
 

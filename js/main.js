@@ -83,6 +83,9 @@ jQuery(document).ready(function ($) {
   $('.btn_1').show();
 
 
+$('.behind_the').waypoint(function() {
+    $('.explore').toggle();
+},{offset:'99%'});
 
 $('.behind_the').waypoint(function() {
   $('.menu_btn').toggleClass('dark_menu');
