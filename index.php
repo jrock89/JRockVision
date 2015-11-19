@@ -21,17 +21,26 @@
 	<?php include_once("analyticstracking.php") ?>
 	<div class="loader">
 		<div class="home_box_1">
-			<div class="jumbotron">
-				<!-- <h1>JRockVision</h1> -->
-				<div class="home_logo">
-					<img src="images/jrv/jrvb.gif" alt="" />
-				</div>
-				<!-- <h4>Please wait...<br>Your gonna wanna see this!</h4> -->
+			<div class="home_logo">
+				<img src="images/jrv/jrvb.gif" alt="" />
 			</div>
+
 		</div>
 	</div>
 
 	<div class="menu_box">
+			<div class="go_home">
+				<img src="images/jrv/jrvw.png" alt="" />
+			</div>
+
+			<div class="row home_row">
+				<div class="col-lg-12 home_menu">
+					<div class="inner_menu_box ">
+							<div>Home</div>
+					</div>
+				</div>
+
+			</div>
 			<div class="row">
 				<div class="col-lg-6 behind_menu">
 					<div class="inner_menu_box ">
@@ -73,19 +82,22 @@
 		<!-- slide 1 -->
 		<div class="slide" id="slide1" data-slide='1' data-stellar-background-ratio='0'>
 			<div class="home_box">
-				<div class="jumbotron">
-					<!-- <h1 style="color:#f2f2f2;">JRockVision</h1> -->
-					<div class="home_logo">
-						<img src="images/jrv/jrvw.png" alt="" />
-					</div>
-					<!-- <h2 style="color:#f2f2f2;opacity:0.7;">Photography | Videography</h2> -->
+
+				<div class="home_logo">
+					<img src="images/jrv/jrvw.png" alt="" />
+				</div>
+				<!-- <h1 style="color:#f2f2f2;">JRockVision</h1> -->
+
+				<!-- <h2 style="color:#f2f2f2;opacity:0.7;">Photography | Videography</h2> -->
+				<!-- <div class="jumbotron">
+
 					<div class="explore_wrap">
 						<div class="explore">
 							Behind the Lens
 						</div>
 					</div>
 
-				</div>
+				</div> -->
 			</div>
 		</div>
 
